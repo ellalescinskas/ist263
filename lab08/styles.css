@@ -20,3 +20,12 @@ table, th, td {
     border: 1px solid black; 
     padding: 8px; 
 }
+.tagline {
+    float: right;
+    margin-right: 15px; 
+}
+footer {
+    padding: 10px;
+    background-color: #adcbe3;
+    overflow: auto; 
+}
