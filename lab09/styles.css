@@ -94,10 +94,19 @@ body {
 }
 
 footer {
-    text-align: center;
-    padding: 10px;
-    margin-top: 20px;
-    font-size: 0.9em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-top: 1px solid #000; 
+}
+.footer-year {
+    text-align: left;
+}
+
+.tagline {
+    margin-left: auto;
+    text-align: right;
 }
 
 * {
