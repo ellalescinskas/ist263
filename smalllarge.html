@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Text</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-size: 2em; /* Adjust font size as needed */
+        }
+
+        .large {
+            display: block; /* Default is to show large text */
+        }
+
+        .small {
+            display: none; /* Hide small text by default */
+        }
+
+        @media (max-width: 800px) {
+            .large {
+                display: none; /* Hide large text when viewport is 800px or less */
+            }
+
+            .small {
+                display: block; /* Show small text when viewport is 800px or less */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="large">I’m large.</div>
+    <div class="small">I’m small.</div>
+</body>
+</html>
