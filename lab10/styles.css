@@ -184,3 +184,25 @@ table, th, td {
     max-width: 100%;
     height: auto;
 }
+@media (max-width: 768px) {
+    /* Styles for tablet and smaller screens */
+}
+@media (max-width: 768px) {
+    nav a {
+        display: block;
+        width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    nav span {
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    nav a {
+        display: block;
+        width: 100%;
+        padding: 10px 0; /* Add vertical padding */
+        text-align: center; /* Center-align text if desired */
+    }
+}
