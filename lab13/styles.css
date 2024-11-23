@@ -212,18 +212,21 @@ table, th, td {
     margin-bottom: 5px; /* Space between label and input/textarea */
     display: inline-block; /* Align labels properly */
 }
+/* Skip to Content link styles */
 .skip-to-content {
     position: absolute;
-    top: -40px;
+    top: -40px; /* Hidden off-screen */
     left: 0;
-    background: #005b96;
-    color: #fff;
+    background: #005b96; /* High contrast background color */
+    color: white; /* High contrast text color */
     padding: 10px;
     text-decoration: none;
     z-index: 1000;
-  }
-  
-  .skip-to-content:focus {
-    top: 0;
-  }
+    font-size: 1rem;
+}
+
+.skip-to-content:focus {
+    top: 0; /* Bring it into view when focused */
+}
+
   
