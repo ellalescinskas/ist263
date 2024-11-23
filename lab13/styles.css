@@ -1,7 +1,7 @@
 body{background-color: #adcbe3;}
 font-family:{ Arial, Helvetica, sans-serif;}
-h1, h2{color:#2a4d69}
-a{color:#63ace5}
+h1, h2{color:hsl(207, 43%, 29%)}
+a{color:#005b96}
 p{color: #0e1a40}
 nav {
     background-color: #005b96;
