@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a><span>|</span> 
+        <a href="skills.html">Skills</a><span>|</span> 
+        <a href="contact.html">Contact</a><span>|</span> 
+    </nav>
+
+    <h1>Contact</h1>
+
+    
+    <div class="row">
+        <div class="column" id="address">
+            <p>Ella Lescinskas<br>241 Savin Hill Ave<br>Boston, MA 02125</p>
+        </div>
+        <div class="column" id="contact-links">
+            <p><a href="mailto:emlescin@syr.edu">Ella Lescinskas Email</a></p>
+            <p>
+                <a href="http://linkedin.com/in/ella-lescinskas-2a1a48277">My LinkedIn profile</a>
+                <img src="../images/logo-sized.png" alt="LinkedIn">
+            </p>
+        </div>
+    </div>
+
+    
+    <div class="row">
+        <div class="column" id="contact-form">
+            <form action="https://formspree.io/f/xrbzwypy" method="POST">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname"><br><br>
+
+                <label for="contact-method">Contact Method:</label>
+                <select id="contact-method" name="contact-method">
+                    <option value="email">Email</option>
+                    <option value="phone">Phone</option>
+                    <option value="text">Text Message</option>
+                </select><br><br>
+
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="column" id="map">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5901.047091244709!2d-71.04921772403256!3d42.31003087119753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e37b01aa5ed529%3A0x3d2ab10e81182ff6!2s241%20Savin%20Hill%20Ave%2C%20Dorchester%2C%20MA%2002125!5e0!3m2!1sen!2sus!4v1726091300236!5m2!1sen!2sus" 
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </div>
+
+    <footer>
+        <hr>
+        <span class="footer-year">&copy; 2024</span>
+        <span class="tagline">"Believe, Achieve, Succeed"</span>
+    </footer>
+</body>
+</html>
