@@ -206,3 +206,9 @@ table, th, td {
         text-align: center; /* Center-align text if desired */
     }
 }
+#contact-form label {
+    font-size: 1rem; /* Ensure readability */
+    color: hsl(207, 43%, 29%); /* Match with your heading color */
+    margin-bottom: 5px; /* Space between label and input/textarea */
+    display: inline-block; /* Align labels properly */
+}
