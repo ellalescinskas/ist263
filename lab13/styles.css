@@ -212,3 +212,18 @@ table, th, td {
     margin-bottom: 5px; /* Space between label and input/textarea */
     display: inline-block; /* Align labels properly */
 }
+.skip-to-content {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #005b96;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    z-index: 1000;
+  }
+  
+  .skip-to-content:focus {
+    top: 0;
+  }
+  
