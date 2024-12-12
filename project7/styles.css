@@ -228,30 +228,83 @@ nav ul li a {
 .card h3 {
     color: #0033cc;
 }
-<!-- Call-to-Action Section -->
-<section class="cta-section">
-    <h2>Ready to Make a Difference?</h2>
-    <button>Sign Up Now</button>
-</section>
+/* Call-to-Action Section */
+.cta-section {
+    text-align: center;
+    background-color: #0033cc;
+    color: white;
+    padding: 2rem 0;
+}
 
-<!-- Footer -->
-<footer>
-    <div class="footer-container">
-        <div class="footer-column">
-            <p><strong>CampusVolunteer</strong></p>
-            <p>Empowering students to create positive change on campus and beyond.</p>
-        </div>
-        <div class="footer-column">
-            <p><strong>Quick Links</strong></p>
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="opportunities.html">Opportunities</a></li>
-                <li><a href="resources.html">Resources</a></li>
-            </ul>
-        </div>
-        <div class="footer-column">
-            <p><strong>Contact Us</strong></p>
-            <p>Email: info@syracusevolunteer.org</p>
-        </div>
-</footer>
+.cta-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
 
+.cta-section button {
+    background-color: white;
+    color: #0033cc;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.cta-section button:hover {
+    background-color: #ffffff;
+    color: #0033cc;
+}
+
+/* Footer Section */
+footer {
+    background-color: #0033cc;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.footer-column {
+    flex: 1;
+    max-width: 220px;
+    min-width: 150px;
+}
+
+.footer-column p {
+    margin: 0.5rem 0;
+    line-height: 1.5;
+}
+
+.footer-column strong {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column ul li {
+    margin: 0.3rem 0;
+}
+
+.footer-column a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+}
