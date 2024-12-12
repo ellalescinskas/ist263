@@ -228,48 +228,30 @@ nav ul li a {
 .card h3 {
     color: #0033cc;
 }
+<!-- Call-to-Action Section -->
+<section class="cta-section">
+    <h2>Ready to Make a Difference?</h2>
+    <button>Sign Up Now</button>
+</section>
 
-/* Call-to-Action Section */
-.cta-section {
-    text-align: center;
-    background-color: #0033cc;
-    color: white;
-    padding: 2rem;
-}
+<!-- Footer -->
+<footer>
+    <div class="footer-container">
+        <div class="footer-column">
+            <p><strong>CampusVolunteer</strong></p>
+            <p>Empowering students to create positive change on campus and beyond.</p>
+        </div>
+        <div class="footer-column">
+            <p><strong>Quick Links</strong></p>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="opportunities.html">Opportunities</a></li>
+                <li><a href="resources.html">Resources</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <p><strong>Contact Us</strong></p>
+            <p>Email: info@syracusevolunteer.org</p>
+        </div>
+</footer>
 
-.cta-section button {
-    background-color: white;
-    color: #0033cc;
-    padding: 1rem 2rem;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-/* Footer */
-footer {
-    background-color: #0033cc;
-    color: white;
-    padding: 2rem;
-}
-
-.footer-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.footer-column ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.footer-column ul li {
-    margin: 0.5rem 0;
-}
-
-.footer-column a {
-    color: white;
-    text-decoration: none;
-}
