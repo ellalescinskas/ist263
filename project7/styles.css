@@ -311,15 +311,15 @@ footer {
 /* Image Section */
 .image-section {
     text-align: center; /* Centers the image */
-    margin: 2rem 0; /* Adds spacing above and below the image */
+    margin: 1rem 0; /* Adds spacing above and below the image */
 }
 
 .content-image {
-    width: 50%; /* Scales the image to 50% of the parent container's width */
-    max-width: 400px; /* Limits the maximum width to 400px */
-    height: auto; /* Maintains the image's aspect ratio */
-    border-radius: 10px; /* Adds rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+    width: 100%; /* Ensures the image is responsive */
+    max-width: 300px; /* Limits the maximum width to 300px */
+    height: auto; /* Maintains the aspect ratio */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds a subtle shadow */
 }
 
 
