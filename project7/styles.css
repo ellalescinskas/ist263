@@ -545,18 +545,22 @@ footer {
     text-align: center;
     padding: 1rem;
 }
-.general-image, .story-image, .resource-image {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin: 1rem auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+/* General Image Styling */
+img {
+    display: block; /* Ensures proper alignment */
+    max-width: 100%; /* Ensures the image doesn't overflow its container */
+    max-height: 400px; /* Restricts the maximum height of the image */
+    height: auto; /* Keeps the aspect ratio intact */
+    margin: 1rem auto; /* Centers images with spacing */
+    border-radius: 10px; /* Adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle initial shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
 }
 
-.general-image:hover, .story-image:hover, .resource-image:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+/* Hover Effect for All Images */
+img:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
 }
+
  
