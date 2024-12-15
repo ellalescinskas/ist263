@@ -428,4 +428,121 @@ footer {
     text-align: center;
     padding: 1rem;
 }
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #0033cc;
+    padding: 1rem;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Resources Section */
+.resources-section {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.resources-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.resource-card {
+    background: white;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.resource-card h3 {
+    color: #0033cc;
+}
+
+.resource-card a {
+    color: #0033cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Personal Story Section */
+.personal-story {
+    padding: 2rem;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.story-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: white;
+    border: 2px solid #ddd; /* Adds a subtle border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem; /* Adds spacing inside the box */
+    margin: 1rem auto;
+    max-width: 1000px; /* Ensures the box doesn't stretch too wide */
+}
+
+.story-container p {
+    flex: 1;
+    max-width: 600px;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.story-image {
+    flex: 1;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transformation */
+}
+
+.story-image:hover {
+    transform: scale(1.05); /* Slight scale on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Larger shadow on hover */
+}
+
+/* Footer */
+footer {
+    background-color: #0033cc;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
 
