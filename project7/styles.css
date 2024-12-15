@@ -1,4 +1,3 @@
-/* General Reset */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,7 +5,7 @@ body {
     line-height: 1.6;
 }
 
-/* Header */
+
 .header {
     background-color: #0056b3;
     color: white;
@@ -32,7 +31,7 @@ body {
     text-decoration: none;
 }
 
-/* Intro Section */
+
 .intro {
     text-align: center;
     padding: 2rem;
@@ -47,7 +46,7 @@ body {
     font-size: 1.2rem;
 }
 
-/* Benefits Section */
+
 .benefits {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -75,7 +74,7 @@ body {
     padding: 0;
 }
 
-/* Call to Action Section */
+
 .cta {
     text-align: center;
     background-color: #e0f7fa;
@@ -95,7 +94,7 @@ body {
     font-size: 1.2rem;
 }
 
-/* Footer */
+
 .footer {
     background-color: #333;
     color: white;
@@ -123,7 +122,7 @@ body {
     text-decoration: none;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .benefits {
         grid-template-columns: 1fr;
@@ -139,20 +138,19 @@ body {
         text-align: center;
     }
 }
-/* Intro Section */
+
 .intro img {
-    max-width: 100%; /* Ensures the image doesn't exceed the container's width */
-    max-height: 400px; /* Limits the image height to prevent it from taking up too much space */
-    width: auto; /* Maintains aspect ratio */
-    height: auto; /* Keeps the image proportional */
-    margin-top: 1rem; /* Adds spacing above the image */
-    border-radius: 10px; /* Optional: Adds rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds a subtle shadow */
-    display: block; /* Ensures it's treated as a block element for proper centering */
-    margin-left: auto; /* Centers the image horizontally */
-    margin-right: auto; /* Centers the image horizontally */
+    max-width: 100%; 
+    max-height: 400px; 
+    width: auto; 
+    height: auto; 
+    margin-top: 1rem; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
 }
-/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -161,7 +159,7 @@ body {
     background-color: #f9f9f9;
 }
 
-/* Header */
+
 header {
     background-color: #0033cc;
     color: white;
@@ -193,7 +191,7 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* Hero Section */
+
 .hero {
     background-color: #f2f2f2;
     text-align: center;
@@ -204,7 +202,7 @@ nav ul li a {
     font-size: 2rem;
 }
 
-/* Volunteer Section */
+
 .volunteer-opportunities .row {
     display: flex;
     gap: 2rem;
@@ -232,7 +230,7 @@ nav ul li a {
 .card h3 {
     color: #0033cc;
 }
-/* Call-to-Action Section */
+
 .cta-section {
     text-align: center;
     background-color: #0033cc;
@@ -262,7 +260,7 @@ nav ul li a {
     color: #0033cc;
 }
 
-/* Footer Section */
+
 footer {
     background-color: #0033cc;
     color: white;
@@ -312,20 +310,20 @@ footer {
 .footer-column a:hover {
     text-decoration: underline;
 }
-/* Image Section */
+
 .image-section {
-    text-align: center; /* Centers the image */
-    margin: 1rem 0; /* Adds spacing above and below the image */
+    text-align: center; 
+    margin: 1rem 0;
 }
 
 .content-image {
-    width: 100%; /* Ensures the image is responsive */
-    max-width: 300px; /* Limits the maximum width to 300px */
-    height: auto; /* Maintains the aspect ratio */
-    border-radius: 10px; /* Optional: Adds rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds a subtle shadow */
+    width: 100%; 
+    max-width: 300px; 
+    height: auto; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
-/* General Styles */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -360,7 +358,7 @@ header nav ul li a {
     font-weight: bold;
 }
 
-/* Resources Section */
+
 .resources-section {
     padding: 2rem;
     background-color: #f9f9f9;
@@ -392,7 +390,7 @@ header nav ul li a {
     font-weight: bold;
 }
 
-/* Personal Story Section */
+
 .personal-story {
     padding: 2rem;
     text-align: center;
@@ -421,14 +419,14 @@ header nav ul li a {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Footer */
+
 footer {
     background-color: #0033cc;
     color: white;
     text-align: center;
     padding: 1rem;
 }
-/* General Styles */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -463,7 +461,7 @@ header nav ul li a {
     font-weight: bold;
 }
 
-/* Resources Section */
+
 .resources-section {
     padding: 2rem;
     background-color: #f9f9f9;
@@ -495,7 +493,7 @@ header nav ul li a {
     font-weight: bold;
 }
 
-/* Personal Story Section */
+
 .personal-story {
     padding: 2rem;
     background-color: #f2f2f2;
@@ -509,12 +507,12 @@ header nav ul li a {
     align-items: center;
     gap: 2rem;
     background-color: white;
-    border: 2px solid #ddd; /* Adds a subtle border */
-    border-radius: 8px; /* Rounded corners */
+    border: 2px solid #ddd; 
+    border-radius: 8px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 2rem; /* Adds spacing inside the box */
+    padding: 2rem; 
     margin: 1rem auto;
-    max-width: 1000px; /* Ensures the box doesn't stretch too wide */
+    max-width: 1000px; 
 }
 
 .story-container p {
@@ -530,37 +528,37 @@ header nav ul li a {
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transformation */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
 .story-image:hover {
-    transform: scale(1.05); /* Slight scale on hover */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Larger shadow on hover */
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
 }
 
-/* Footer */
+
 footer {
     background-color: #0033cc;
     color: white;
     text-align: center;
     padding: 1rem;
 }
-/* General Image Styling */
+
 img {
-    display: block; /* Ensures proper alignment */
-    max-width: 100%; /* Ensures the image doesn't overflow its container */
-    max-height: 400px; /* Restricts the maximum height of the image */
-    height: auto; /* Keeps the aspect ratio intact */
-    margin: 1rem auto; /* Centers images with spacing */
-    border-radius: 10px; /* Adds rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle initial shadow */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    display: block; 
+    max-width: 100%; 
+    max-height: 400px; 
+    height: auto; 
+    margin: 1rem auto; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
-/* Hover Effect for All Images */
+
 img:hover {
-    transform: scale(1.05); /* Slight zoom effect */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
 }
 .skip-link {
     position: absolute;
@@ -575,7 +573,5 @@ img:hover {
 }
 
 .skip-link:focus {
-    top: 0; /* Makes it visible when focused */
+    top: 0;
 }
-
- 
