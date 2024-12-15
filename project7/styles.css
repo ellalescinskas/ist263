@@ -562,5 +562,20 @@ img:hover {
     transform: scale(1.05); /* Slight zoom effect */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
 }
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background-color: #0033cc;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    z-index: 100;
+    transition: top 0.3s ease;
+}
+
+.skip-link:focus {
+    top: 0; /* Makes it visible when focused */
+}
 
  
